@@ -1,0 +1,17 @@
+<h1>To-do</h1>
+
+<div clas="form">
+<%= form_for @tasks do |f| %>
+<p>
+  <%= f.label      :item %>
+  <%= f.text_field :item %>
+</p>  
+</div>
+
+<div class="actions">
+  <p>
+    <%= f.submit %>
+  </p>
+</div>
+<% end %>
+  
